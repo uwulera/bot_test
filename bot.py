@@ -1,5 +1,5 @@
 import telebot
-a = telebot.TeleBot("5106881937:AAEqlvsAGDY51CQlwsd0PrjFLVr6Wo-5HZs")
+a = telebot.TeleBot("5009305175:AAEGlNBcPFI4-XQ7SAndzfWaDC5XyrSLru4")
 keyboard_test = telebot.types.ReplyKeyboardMarkup(True)
 keyboard_test.row("Привет", "Пока", "Удалить клавиатуру")
 @a.message_handler(commands=['start'])
